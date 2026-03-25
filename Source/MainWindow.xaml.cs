@@ -23,17 +23,23 @@ namespace oefening2._1_startercode
 
         private void btnOne_Click(object sender, RoutedEventArgs e)
         {
-
+            lblOne.Content = "Ja";
+            lblTwo.Content = "Ja";
+            lblThree.Content = "Ja";
         }
 
         private void btnTwo_Click(object sender, RoutedEventArgs e)
         {
-            
+            lblOne.Content = "Nee";
+            lblTwo.Content = "Nee";
+            lblThree.Content = "Nee";
         }
 
         private void btnThree_Click(object sender, RoutedEventArgs e)
         {
-
+            lblOne.Content = "A";
+            lblTwo.Content = "B";
+            lblThree.Content = "C";
         }
     }
 }
